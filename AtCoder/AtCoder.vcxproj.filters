@@ -7,10 +7,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Problems\EducationalDP.cpp" />
+    <ClCompile Include="Problems\ABC173.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bits\stdc++.h">
       <Filter>bits</Filter>
     </ClInclude>
+    <ClInclude Include="AtCoderLib.h" />
   </ItemGroup>
 </Project>

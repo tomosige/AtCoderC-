@@ -28,6 +28,7 @@ bool chmin(T& a, T b) {
 	}
 	return false;
 }
+
 template<class T>
 bool chmax(T& a, T b) {
 	if (a < b) {
@@ -35,32 +36,4 @@ bool chmax(T& a, T b) {
 		return true;
 	}
 	return false;
-}
-
-
-void Main()
-{
-	ll N;
-	cin >> N;
-	vi A(N, 0);
-	rep(i, 0, N) cin >> A[i];
-
-	sort(A.begin(), A.end(), greater<int>());
-	ll sum = 0;
-	sum += A[0];
-	rep(i, 2, N) {
-		sum += A[i/2];
-	}
-
-	cout << sum << endl;
-}
-
-int main()
-{
-	cin.tie(nullptr);
-	ios_base::sync_with_stdio(false);
-	cout << fixed << setprecision(15);
-
-	Main();
-	return 0;
 }
