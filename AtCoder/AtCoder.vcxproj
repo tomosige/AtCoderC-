@@ -124,9 +124,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Problems\ABC171.cpp" />
+    <ClCompile Include="Problems\ABC172.cpp" />
     <ClCompile Include="Problems\ABC173.cpp" />
     <ClCompile Include="Problems\EducationalDP.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Problems\M-SOLUTIONS.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AtCoderLib.h" />
